@@ -1,19 +1,22 @@
 import { brainwaveSymbol, check } from "../assets";
-import { collabApps, collabContent, collabText } from "../constants";
+import { techStack, collabContent, collabText } from "../constants";
 import Button from "./Button";
 import Section from "./Section";
 import { LeftCurve, RightCurve } from "./design/Collaboration";
 
 const Collaboration = () => {
   return (
-    <Section crosses>
+    <Section crosses id="skills">
       <div className="container lg:flex">
         <div className="max-w-[25rem]">
-          <h2 className="h2 mb-4 md:mb-8">
-            AI Chat App for seamless collaboration
+          <h2 className="h2 mb-2 md:mb-4">
+          Tech Arsenal
           </h2>
+          <h4 className="h4 mb-4 md:mb-8">
+            - What I Bring to the Table
+          </h4>
 
-          <ul className="max-w-[22rem] mb-10 md:mb-14">
+          <ul className="max-w-[22rem] mb-10 md:mb-10">
             {collabContent.map((item) => (
               <li className="mb-3 py-3" key={item.id}>
                 <div className="flex items-center">
@@ -31,7 +34,7 @@ const Collaboration = () => {
         </div>
 
         <div className="lg:ml-auto xl:w-[38rem] mt-4">
-          <p className="body-2 mb-8 text-n-4 md:mb-16 lg:mb-32 lg:w-[22rem] lg:mx-auto">
+          <p className="body-2 mb-6 text-n-4 md:mb-12 lg:mb-36 lg:w-[25rem] lg:mx-auto">
             {collabText}
           </p>
 
@@ -50,7 +53,7 @@ const Collaboration = () => {
             </div>
 
             <ul>
-              {collabApps.map((app, index) => (
+              {techStack.map((app, index) => (
                 <li
                   key={app.id}
                   className={`absolute top-0 left-1/2 h-1/2 -ml-[1.6rem] origin-bottom rotate-${

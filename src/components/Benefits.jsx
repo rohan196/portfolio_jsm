@@ -7,11 +7,11 @@ import ClipPath from "../assets/svg/ClipPath";
 
 const Benefits = () => {
   return (
-    <Section id="features">
+    <Section id="projects">
       <div className="container relative z-2">
         <Heading
           className="md:max-w-md lg:max-w-2xl"
-          title="Chat Smarter, Not Harder with Brainwave"
+          title="My Creations: The Showcase of my Work"
         />
 
         <div className="flex flex-wrap gap-10 mb-10">
@@ -33,9 +33,9 @@ const Benefits = () => {
                     height={48}
                     alt={item.title}
                   />
-                  <p className="ml-auto font-code text-xs font-bold text-n-1 uppercase tracking-wider">
+                  <a className="ml-auto font-code text-xs font-bold text-n-1 uppercase tracking-wider" href={item.link}>
                     Explore more
-                  </p>
+                  </a>
                   <Arrow />
                 </div>
               </div>

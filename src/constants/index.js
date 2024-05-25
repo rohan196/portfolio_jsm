@@ -33,42 +33,48 @@ import {
   sliders04,
   telegram,
   twitter,
+  github,
   yourlogo,
 } from "../assets";
 
 export const navigation = [
   {
     id: "0",
-    title: "Features",
-    url: "#features",
-  },
+    title: "About",
+    url: "#hero",
+  }, 
   {
     id: "1",
-    title: "Pricing",
-    url: "#pricing",
+    title: "Projects",
+    url: "#projects",
   },
   {
     id: "2",
-    title: "How to use",
-    url: "#how-to-use",
+    title: "Expertise",
+    url: "#skills",
   },
   {
     id: "3",
-    title: "Roadmap",
-    url: "#roadmap",
+    title: "Experience",
+    url: "#experience",
   },
-  {
-    id: "4",
-    title: "New account",
-    url: "#signup",
-    onlyMobile: true,
-  },
-  {
-    id: "5",
-    title: "Sign in",
-    url: "#login",
-    onlyMobile: true,
-  },
+  // {
+  //   id: "4",
+  //   title: "Roadmap",
+  //   url: "#roadmap",
+  // }
+  // {
+  //   id: "4",
+  //   title: "New account",
+  //   url: "#signup",
+  //   onlyMobile: true,
+  // },
+  // {
+  //   id: "5",
+  //   title: "Sign in",
+  //   url: "#login",
+  //   onlyMobile: true,
+  // },
 ];
 
 export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
@@ -128,25 +134,27 @@ export const roadmap = [
 ];
 
 export const collabText =
-  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+  "Blending creativity with technical expertise to build dynamic, user-friendly web applications. Proficient in front-end & back-end technologies.";
 
 export const collabContent = [
   {
     id: "0",
-    title: "Seamless Integration",
-    text: collabText,
+    title: "Front-End Technologies",
+    text: "Figma, HTML, CSS, JavaScript, React, Tailwind ",
   },
   {
     id: "1",
-    title: "Smart Automation",
+    title: "Backend Technologies",
+    text: "Node.js, Express, MySQL, MongoDB, FireBase",
   },
   {
     id: "2",
-    title: "Top-notch Security",
+    title: "Additional Skills",
+    text: "Git/GitHub, Vercel",
   },
 ];
 
-export const collabApps = [
+export const techStack = [
   {
     id: "0",
     title: "Figma",
@@ -208,35 +216,37 @@ export const collabApps = [
 export const pricing = [
   {
     id: "0",
-    title: "Basic",
-    description: "AI chatbot, personalized recommendations",
+    title: "SD Coaching",
+    description: "Created an website for a coaching center as a freelance project",
     price: "0",
+    link: "https://github.com/Cypher0214/Edu-Website",
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "An educational website, enhancing its online visibility.",
+      "Utilized React.js, Tailwind CSS, for robust development.",
+      "Created a MongoDB Admin Portal for easy website updates.",
     ],
   },
+  // {
+  //   id: "1",
+  //   title: "Premium",
+  //   description: "Advanced AI chatbot, priority support, analytics dashboard",
+  //   price: "9.99",
+  //   features: [
+  //     "An advanced AI chatbot that can understand complex queries",
+  //     "An analytics dashboard to track your conversations",
+  //     "Priority support to solve issues quickly",
+  //   ],
+  // },
   {
     id: "1",
-    title: "Premium",
-    description: "Advanced AI chatbot, priority support, analytics dashboard",
-    price: "9.99",
-    features: [
-      "An advanced AI chatbot that can understand complex queries",
-      "An analytics dashboard to track your conversations",
-      "Priority support to solve issues quickly",
-    ],
-  },
-  {
-    id: "2",
-    title: "Enterprise",
-    description: "Custom AI chatbot, advanced analytics, dedicated account",
+    title: "OffShop.co",
+    description: "An E-Commerce Website made as a group project",
     price: null,
+    link: "https://github.com/rohan196/offShop",
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "Created a Full Stack E-commerce website with MERN.",
+      "Includes advanced E-commerce funstionalities and features.",
+      "Gained enhanced skills in scalable web app development.",
     ],
   },
 ];
@@ -244,51 +254,57 @@ export const pricing = [
 export const benefits = [
   {
     id: "0",
-    title: "Ask anything",
+    title: "Web4L Portfolio",
     text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
+    link:"https://github.com/rohan196/portfolio_jsm",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "1",
-    title: "Improve everyday",
+    title: "OffShop.co",
     text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
+    link:"https://github.com/rohan196/offShop",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
     light: true,
   },
   {
     id: "2",
-    title: "Connect everywhere",
+    title: "Memories",
     text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
+    link:"https://github.com/rohan196/memories",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
   },
   {
     id: "3",
-    title: "Fast responding",
+    title: "SD Coaching",
     text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
+    link:"https://github.com/Cypher0214/Edu-Website",
     iconUrl: benefitIcon4,
     imageUrl: benefitImage2,
     light: true,
   },
   {
     id: "4",
-    title: "Ask anything",
+    title: "CloudCraft",
     text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
     backgroundUrl: "./src/assets/benefits/card-5.svg",
+    link:"https://github.com/rohan196/weather-app-using-react",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "5",
-    title: "Improve everyday",
+    title: "Gericht",
     text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
     backgroundUrl: "./src/assets/benefits/card-6.svg",
+    link:"https://github.com/rohan196/Restaurant-Brochure-App",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
   },
@@ -297,32 +313,20 @@ export const benefits = [
 export const socials = [
   {
     id: "0",
-    title: "Discord",
-    iconUrl: discordBlack,
-    url: "#",
+    title: "GitHub",
+    iconUrl: github,
+    url: "https://github.com/rohan196",
   },
   {
     id: "1",
     title: "Twitter",
     iconUrl: twitter,
-    url: "#",
+    url: "https://x.com/rohan_rajput196",
   },
   {
     id: "2",
     title: "Instagram",
     iconUrl: instagram,
-    url: "#",
-  },
-  {
-    id: "3",
-    title: "Telegram",
-    iconUrl: telegram,
-    url: "#",
-  },
-  {
-    id: "4",
-    title: "Facebook",
-    iconUrl: facebook,
     url: "#",
   },
 ];
