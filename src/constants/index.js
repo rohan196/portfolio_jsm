@@ -319,12 +319,18 @@ export const socials = [
   },
   {
     id: "1",
+    title: "LinkedIn",
+    iconUrl: github,
+    url: "https://www.linkedin.com/in/rohan196/",
+  },
+  {
+    id: "2",
     title: "Twitter",
     iconUrl: twitter,
     url: "https://x.com/rohan_rajput196",
   },
   {
-    id: "2",
+    id: "3",
     title: "Instagram",
     iconUrl: instagram,
     url: "#",
