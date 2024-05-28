@@ -33,7 +33,13 @@ const Benefits = () => {
                     height={48}
                     alt={item.title}
                   />
-                  <a className="ml-auto font-code text-xs font-bold text-n-1 uppercase tracking-wider" href={item.link}>
+                  {/* <Link to={item.link} /> */}
+                  <a 
+                    className="ml-auto font-code text-xs font-bold text-n-1 uppercase tracking-wider cursor-pointer"
+                    href="https://www.github.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     Explore more
                   </a>
                   <Arrow />
@@ -48,13 +54,15 @@ const Benefits = () => {
               >
                 <div className="absolute inset-0 opacity-0 transition-opacity hover:opacity-10">
                   {item.imageUrl && (
-                    <img
-                      src={item.imageUrl}
-                      width={380}
-                      height={362}
-                      alt={item.title}
-                      className="w-full h-full object-cover"
-                    />
+                    <a href={item.link} target="_blank" rel="noopener noreferrer">
+                      <img
+                        src={item.imageUrl}
+                        width={380}
+                        height={362}
+                        alt={item.title}
+                        className="w-full h-full object-cover"
+                      />
+                    </a>
                   )}
                 </div>
               </div>

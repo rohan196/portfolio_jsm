@@ -30,7 +30,7 @@ const Collaboration = () => {
             ))}
           </ul>
 
-          <Button>Try it now</Button>
+          <Button href="https://github.com/rohan196">Check Out Now</Button>
         </div>
 
         <div className="lg:ml-auto xl:w-[38rem] mt-4">
