@@ -269,7 +269,7 @@ export const benefits = [
     id: "0",
     title: "Web4L Portfolio",
     text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
-    backgroundUrl: "./src/assets/benefits/card-1.svg",
+    backgroundUrl: "../src/assets/benefits/card-1.svg",
     link: "https://github.com/rohan196/portfolio_jsm",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
