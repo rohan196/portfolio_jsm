@@ -7,7 +7,6 @@ import { ScrollParallax } from "react-just-parallax";
 import { useRef } from "react";
 import Generating from "./Generating";
 import Notification from "./Notification";
-import CompanyLogos from "./CompanyLogos";
 
 const Hero = () => {
   const parallaxRef = useRef(null);
@@ -42,7 +41,7 @@ const Hero = () => {
           With a positive attitude and a growth mindset, 
           I am ready to make a meaningful contribution and achieve great things.
           </p> */}
-          <p className="body-1 max-w-3xl lg-mt-2 mx-auto mb-6 text-n-2 lg:mb-8">
+          <p className="body-1 max-w-3xl lg-mt-2 mx-auto mb-6 mt-8 text-n-2 lg:mb-8">
             As a Software Engineer, I blend technical proficiency in Full Stack Web Development with a passion for innovation. 
             Driven by a thirst for knowledge, I tackle complexities with creativity, aiming always for impeccable results.
           </p>

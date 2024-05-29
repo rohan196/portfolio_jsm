@@ -28,6 +28,7 @@ const Pricing = () => {
         </div>
 
         <Heading
+          className="mt-4 mb-4"
           tag="Get to know my Past Endeavors"
           title="Professional Contributions"
         />
