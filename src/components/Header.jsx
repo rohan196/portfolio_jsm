@@ -39,7 +39,7 @@ const Header = () => {
         <a className="block w-[12rem] xl:mr-8" href="#hero">
           <div className="flex">
           <img src={brainwaveSymbol} width={50} height={40} alt="Brainwave" />
-          <h1 className="pl-5 m-auto text-2xl font-bold">Rohan Verse</h1>
+          <h1 className="pl-5 m-auto text-2xl font-bold">RohanVerse</h1>
           </div>
         </a>
 
