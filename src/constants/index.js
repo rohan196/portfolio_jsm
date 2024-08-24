@@ -267,10 +267,10 @@ export const pricing = [
 export const benefits = [
   {
     id: "0",
-    title: "Web4L Portfolio",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "CarePulse: Helthcare",
+    text: "Book doctor appointments without the hassle of standing in hospital queues. Keep patient records and manage appointments too.",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
-    link: "https://github.com/rohan196/portfolio_jsm",
+    link: "https://carepulse-rohan.vercel.app/",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
@@ -286,10 +286,10 @@ export const benefits = [
   },
   {
     id: "2",
-    title: "Memories",
-    text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
+    title: "Promptopia",
+    text: "Open Source AI prompting tool for developers to discover, create and share creative prompts among the community.",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
-    link: "https://github.com/rohan196/memories",
+    link: "https://promptopia-rps.vercel.app/",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
   },
